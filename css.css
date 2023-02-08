@@ -1,0 +1,15 @@
+ body{
+    background-color: rgb(93, 173, 226);
+    }
+header {
+    background-color: rgb(253, 224, 92);
+}
+h1#titulo {
+    background-color: rgb(253, 224, 92);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
