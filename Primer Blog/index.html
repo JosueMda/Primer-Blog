@@ -4,66 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css.css">
     <title>Blog Personal</title>
 </head>
 <body>
-    <header>
-        <h1 id="titulo">Bienvenidos a mi primer Blog</h1>
-    </header>
-    <div>
-        <h3>Lenguajes de programación en los que estoy trabajando actualmente</h3>
-    </div>
-    <section>
-        <h2>Python</h2>
-        <img src="img/python.jpg" alt="Python Img" width= 300px >
-        <h3>Que es Python y para que sirve</h3>
-        <p>Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas diferentes.</p>
-        <div>
-            <h4>Empresas que utilizan Python</h4>
-            <ul>
-                <li>Netflix</li>
-                <li>Instagram</li>
-                <li>Spotify</li>
-                <li>Uber</li>
-                <li>Pinterest</li>
-                <li>Y mas</li>
-            </ul>
+    <header id="titulo">
+        <div class="container-left">
+            <img class="logo" src="img/logo.jpg">
+            <ul class="nav-bar-left">
+                <li>
+                    Tutorial 
+                    <i class="fas fa-caret-down"></i>
+                </li>
+                <li>
+                    Referencias
+                    <i class="fas fa-caret-down"></i>
+                </li>
+                <li>
+                    Ejercicios
+                    <i class="fas fa-caret-down"></i>
+                </li>
+                <li>
+                    Sing Up
+                </li>
+            </ul> 
         </div>
-        <p>Ir a la pagina oficial de Python</p>
-        <button>
-            <a type="submit" target="_blank" href="https://www.python.org/">Ir a Python</a>
-        </button>    
-        
-        
-    </section>
-    <section>
-        <h2>SQL</h2>
-        <img src="img/sql.avif" width=300px>
-        <h3>SQL, el lenguaje mas usado en el mundo de DataBase</h3>
-        <p>SQL es un acrónimo en inglés para Structured Query Language.  Un Lenguaje de Consulta Estructurado. Un tipo de lenguaje de programación que te permite manipular y descargar datos de una base de datos. Tiene capacidad de hacer cálculos avanzados y álgebra. Es utilizado en la mayoría de empresas que almacenan datos en una base de datos. Ha sido y sigue siendo el lenguaje de programación más usado para bases de datos relacionales.</p>
-        <p>Link para mas informacion:</p>
-        <button>
-            <a type="submit" target="_blank" href="https://datademia.es/blog/que-es-sql">Mas sobre SQL</a>
-        </button>
-    </section>
-    <section>
-        <h2>HTML</h2>
-        <img src="img/html.png" width=300px>
-        <h3>Que es HTML</h3>
-        <p>HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web. Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).</p>
-        <p>Link para mas informacion sobre HTML</p>
-        <button>
-            <a type="submit" target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML">Clickea aca</a>
-        </button>
-    </section>
-    <hr>
-    <hr>
-    <footer>
-        <button>
-            <a href="#titulo">Ir al inicio</a>
-        </button>
-    </footer>
-    
+        <div class="container-rigth">
+            <ul class="nav-bar-rigth">
+                <li>
+                    <i class="far fa-circle"></i>
+                </li>
+                <li>
+                    <i class="fas fa-globe-americas"></i>
+                </li>
+                <li>
+                    <i class="fas fa-search"></i>
+                </li>
+                <li class="josu">
+                    Pro
+                </li>
+                <li class="josu1">
+                    Get nose
+                </li>
+                <li class="josu2">
+                    Website
+                </li>
+                <li class="josu3">
+                    Login
+                </li>
+            </ul> 
+        </div>
+    </header>
+    <main>
+        <div>
+            <h3 class="titulo">Lenguajes de programación en los que estoy trabajando actualmente</h3>
+        </div>
+        <section class="section-python">
+            <h2>Python</h2>
+            <img src="img/python.jpg" alt="Python Img" width= 300px >
+            <h3>Que es Python y para que sirve</h3>
+            <p>Python es un lenguaje de programación ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML). Los desarrolladores utilizan Python porque es eficiente y fácil de aprender, además de que se puede ejecutar en muchas plataformas diferentes.</p>
+            <div>
+                <h4>Empresas que utilizan Python</h4>
+                <ul>
+                    <li>Netflix</li>
+                    <li>Instagram</li>
+                    <li>Spotify</li>
+                    <li>Uber</li>
+                    <li>Pinterest</li>
+                    <li>Y mas</li>
+                </ul>
+            </div>
+            <p>Ir a la pagina oficial de Python</p>
+            <button>
+                <a type="submit" target="_blank" href="https://www.python.org/">Ir a Python</a>
+            </button>    
+            
+            
+        </section>
+        <section>
+            <h2>SQL</h2>
+            <img src="img/sql.avif" width=300px>
+            <h3>SQL, el lenguaje mas usado en el mundo de DataBase</h3>
+            <p>SQL es un acrónimo en inglés para Structured Query Language.  Un Lenguaje de Consulta Estructurado. Un tipo de lenguaje de programación que te permite manipular y descargar datos de una base de datos. Tiene capacidad de hacer cálculos avanzados y álgebra. Es utilizado en la mayoría de empresas que almacenan datos en una base de datos. Ha sido y sigue siendo el lenguaje de programación más usado para bases de datos relacionales.</p>
+            <p>Link para mas informacion:</p>
+            <button>
+                <a type="submit" target="_blank" href="https://datademia.es/blog/que-es-sql">Mas sobre SQL</a>
+            </button>
+        </section>
+        <section>
+            <h2>HTML</h2>
+            <img src="img/html.png" width=300px>
+            <h3>Que es HTML</h3>
+            <p>HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web. Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).</p>
+            <p>Link para mas informacion sobre HTML</p>
+            <div class="buttons">
+                <button>
+                    <a type="submit" target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML">Clickea aca</a>
+                </button>
+                <button>
+                    <a href="#titulo">Ir al inicio</a>
+                </button>
+            </div>
+        </section>
+    </main>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 </html>
